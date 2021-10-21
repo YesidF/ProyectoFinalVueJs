@@ -1,0 +1,35 @@
+/*import '../../../node_modules/bootstrap/dist/css/bootstrap.css';*/
+:root {
+    --custom-body: #E7EAEA;
+    --custom-content: #FFFFFF;
+    --custom-primary: #4FAEF2;
+    --custom-segundary: #989898;
+    --custom-text-primary: #4FAEF2;
+    --custom-text-segundary: #F35252;
+    --custom-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--custom-body) !important;
+}
+.navbar, #form-imc, #form-usu{
+    background-color: var(--custom-content) !important;
+}
+
+.nav-item .active{
+    color: #0DCAF0 !important;
+}
+
+footer{
+    height: 50px;
+    background-color: #0F1010;
+    color: #FFFFFF;
+    /*width: 99%;
+    position: absolute;
+    bottom: 0;*/
+}
+
